@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* reset css style start*/
 
@@ -55,8 +55,13 @@ table {
 
 .container__main{
     margin: 0 auto;
-    max-width: 1250px;
+    max-width: 1285px;
     padding: 0 15px;
+}
+
+.title__section{
+    margin-bottom: 78px;
+
 }
 
 .title__category{
@@ -70,7 +75,6 @@ table {
 }
 
 .title__name{
-    margin-bottom: 78px;
     font-weight: 700;
     font-size: 36px;
     line-height: 55px;
@@ -79,9 +83,16 @@ table {
     color: #0F2137;
 }
 
+/* block 2 start */
+
+.meet{
+    margin-bottom: 200px;
+}
+
 .meet__content{
     place-content: center;
     display: flex;
+    flex-wrap: wrap;
     gap: 100px;
 }
 
@@ -131,3 +142,68 @@ table {
     text-align: center;
     color: #343D48;
 }
+
+/* block 2 end */
+
+/* block 4 start */
+
+.features__meet__card{
+    max-width: 370px;
+    display: flex;
+}
+
+.features__meet__text{
+    max-width: 263px;
+}
+
+.features__meet__title{
+    margin-bottom: 13px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #0F2137;
+}
+
+.features__meet__desc{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #343D48;
+}
+
+.features__meet__ico{
+    width: 82px;
+    height: 82px;
+    border-radius: 16px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ico__blue{
+    background-color: #EAF9FF;
+}
+
+.ico__yellow{
+    background-color: #FFF6D3;
+}
+
+.ico__green{
+    background-color: #E4FFEE;
+}
+
+.ico__prpl{
+    background-color: #F4F4FF;
+}
+
+.ico__orange{
+    background-color: #fceee4;
+}
+
+.me-15{
+    margin: 0 15px 0 0;
+}
+
+/* block 4 end */
